@@ -7,7 +7,6 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
-    <script src="eat.js"></script>
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
     <!-- Google fonts-->
@@ -36,11 +35,11 @@
           <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right small"><span class="text-uppercase mr-2">Menu</span><i class="fas fa-bars"></i></button>
           <div id="navbarSupportedContent" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto d-lg-flex align-items-lg-center">
-              <li class="nav-item"><a href="index.html" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4 active">主页</a>
+              <li class="nav-item"><a href="index.html" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">主页</a>
               </li>
               <li class="nav-item"><a href="text.html" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">调用</a>
               </li>
-              <li class="nav-item"><a href="about.html" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">关于</a>
+              <li class="nav-item"><a href="about.html" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4 active">关于</a>
               </li>
             </ul>
           </div>
@@ -74,29 +73,22 @@
         </div>
       </div>
     </div>
-    <section style="background: url(img/jumbotron1.jpg)" class="py-5 bg-cover bg-center">
-      <div class="hero-overlay"></div>
-      <div class="container py-5 text-white text-center">
-
-        <h1 class="text-shadow hero-heading">Hi,I am EatWhat</h1>
-        <P class="text-shadow lead my-4">今天吃:<p class="text-shadow lead my-4" id="eatwhat"></p></P>
+    <section class="py-5 bg-cover bg-gray">
+      <div class="container py-5">
+        <div aria-label="breadcrumb" class="nav">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="./">主页</a></li>
+            <li aria-current="page" class="breadcrumb-item active">关于</li>
+          </ol>
+        </div>
+        <h1 class="lined">📕关于</h1>
+        <p class="lead my-4">EatWhat是一个理论上可以帮你决定吃什么的程序。她调用简单，体积小，仅4KB。目前只有57种食物，正在不断添加。以及此程序的命名及灵感源自fly6022。</p>
+        <h2 class="lined">🚩 贡献</h2>
+        <p class="lead my-4">贡献人员:fly6022,yang (排名不分先后)</p>
+        <h2 class="lined">更新日志</h2>
+        <p class="lead my-4">2020.4.23 重写完成</p>
       </div>
     </section>
-    <section class="py-5">
-      <div class="container py-5">
-        <h2 class="mb-4">理念</h2>
-        <p class="lead">🎂 早晨吃什么？中午吃什么？晚上吃什么？这个程序有什么用？？？</p>
-        <p class="text-small">EatWhat是一个理论上可以帮你决定吃什么的程序。她调用简单，体积小，仅4KB。目前只有57种食物，正在不断添加</p><a href="#" class="btn btn-outline-primary btn-sm">调用</a>
-      </div>
-    </section>
-    
-    
-    <section class="py-5 bg-gray">
-      <div class="container py-5">
-        <script src="eat2.js"></script>
-        <h2 class="lined mb-4">今天为你推荐の食物</h2>
-        <p id="eatwhat2" class="lead">加载失败了555</p>
-      </div>
     </section>
     <footer style="background: #eee;" class="pt-5">
       <div class="bg-dark py-4">    
