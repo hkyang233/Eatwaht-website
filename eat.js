@@ -3,7 +3,7 @@
 // 遵循MIT协议开源
 setTimeout("eatwhat()","0");
 function eatwhat() {
-    var food=75;    //录入食物的数量
+    var food=85;    //录入食物的数量
     var number=Math.floor(Math.random()*food);    // 可均衡获取食物数量的随机整数。
     switch (number){
         case 0:eatfood="小榄鱼球";
@@ -156,7 +156,27 @@ function eatwhat() {
         break;
         case 74:eatfood="猪扒包";
         break;
-        case 75:eatfood="五羊牌甜筒"
+        case 75:eatfood="五羊牌甜筒";
+        break;
+        case 76:eatfood="牛腩面";
+        break;
+        case 77:eatfood="奥尔良鸡腿";
+        break;
+        case 78:eatfood="鸡翅包饭";
+        break;
+        case 79:eatfood="手抓饼";
+        break;
+        case 80:eatfood="芒果慕斯";
+        break;
+        case 81:eatfood="草莓千层";
+        break;
+        case 82:eatfood="抹茶千层";
+        break;
+        case 83:eatfood="甜豆腐花";
+        break;
+        case 84:eatfood="咸豆腐花";
+        break;
+        case 85:eatfood="北京烤鸭";
         break;
     }
         document.getElementById("eatwhat").innerHTML=eatfood;
